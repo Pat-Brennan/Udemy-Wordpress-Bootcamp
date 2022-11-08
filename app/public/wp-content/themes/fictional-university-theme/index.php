@@ -18,3 +18,18 @@ function greet($insult, $name)
 greet("Plebian", "Beavis");
 greet("ya big jerk!", "Butthead");
 ?>
+
+<?php
+
+$names = array('buzz', 'lightyear', 'jerry', 'the bee');
+
+$count = 0;
+
+while ($count < count($names)) {
+  echo "<li>Hi, my name is $names[$count] </li>";
+  $count++;
+}
+
+?>
+
+<p> Howdy! I'm <?php echo $names[0] ?>.</p>
